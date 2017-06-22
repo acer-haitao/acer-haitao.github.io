@@ -7,9 +7,23 @@
 <link rel="stylesheet" type="text/css" href="css/main.css"/>
 <link rel="stylesheet" type="text/css" href="style/home.css"/>
 <meta name="baidu-site-verification" content="Xvkhsc15EL" />
+<style> 
+.abc{ border:1px solid #000; margin:0 auto} 
+@media screen and (min-width: 1349px) { 
+.abc {width: 1600px} 
+} 
+/* css 注释说明：设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */ 
+
+@media screen and (max-width: 1349px) { 
+.abc {width: 1349px} 
+} 
+/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */ 
+
+</style>
 </head>
 <body>	
-		<!--头部区域-->
+<div class="abc">
+<!--头部区域-->
 <div class="header">
     <div class="left_time">
 		<div class="smallDate" id="smallDate">
@@ -330,6 +344,7 @@
                  </div>
 	</div>		  
   </div>
+ </div>
    <audio src="http://m2.music.126.net/cGsGLvLDeVVAA-Ty7Nxdew==/2053887720697629.mp3" autoplay="" loop="" muted=""></audio>  
    <script type="text/javascript" src="js/smallDate.js"></script>
    <script type="text/javascript">   
