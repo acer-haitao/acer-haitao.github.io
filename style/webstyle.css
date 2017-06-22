@@ -43,12 +43,12 @@ ul,ol{ list-style:none;}
 
 
 /*海报区域*/
-.banner{ width:1349px; height:500px; background:url(../images/banner.jpg) no-repeat center}
+.banner{ width:1349px; height:500px; margin:0 auto; background:url(../images/banner.jpg) no-repeat center}
 /*海报区域 end*/
 
 
 /*关于我们区域*/
-.about{ width:1349px; height:180px; margin:95px auto;}
+.about{ width:1349px; height:180px; margin:0 auto;}
 .about .box{ width:650px; height:180px; border:1px solid #eee; position:relative; transition:0.3s;}
 .about .box:hover{ background:#00408f; border:1px solid #00408f;}
 .about .box_l{ float:left;}
