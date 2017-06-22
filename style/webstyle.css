@@ -14,7 +14,7 @@ ul,ol{ list-style:none;}
 
 
 /*头部区域*/
-.header{ width:1349px; height:120px;  /*background: #000000;*/}
+.header{ width:1349px; height:120px;  margin:0 auto;  /*background: #000000;*/}
 .header .left_time{ width:210px; height:120px;  /* background: #ffffff;*/  float: left; }
 .header .center_logo{ width:120px; height:120px;  /*background: #00ff00;*/float: left; }
 .header .right_nav{ width:1019px; height:120px;  /* background: #0000ff;*/float: left; }
@@ -68,7 +68,7 @@ ul,ol{ list-style:none;}
 
 /*产品区域*/
 
-.pro{ width:1349px; height:630px; background:#f2f4f6; overflow:hidden}
+.pro{ width:1349px;  margin:0 auto; height:630px; background:#f2f4f6; overflow:hidden}
 .pro_title{ margin-top:75px; margin-bottom:35px;}
 .pro_con{ width:1180px; height:300px; margin:0 auto;}
 
