@@ -7,8 +7,21 @@
 	<link rel="stylesheet" type="text/css" href="css/home.css"/><!--3DCSS-->
 	<meta name="baidu-site-verification" content="9fnFmyYJAF" />
 	<script src="js/index.js"></script>
+	<style> 
+	.abc{ border:1px solid #000;margin:0 auto;} 
+	@media screen and (min-width: 1349px) { 
+	.abc {width:1920px} 
+	} 
+	/* css 注释说明：设置了浏览器宽度不小于1201px时 abc 显示1200px宽度 */ 
+
+	@media screen and (max-width: 1600px) { 
+	.abc {width: 1349px} 
+	} 
+	/* 设置了浏览器宽度不大于1200px时 abc 显示900px宽度 */ 
+	</style>
 </head>
 <body>
+	<div class = "abc">
     <!--Heard开始-->
 	<div id="header">
 	        <!--logo图片-->
@@ -331,5 +344,6 @@
 		</div>		  
     </div> 
   <!--Copyright结束-->
+ </div>
 </body>
 </html>

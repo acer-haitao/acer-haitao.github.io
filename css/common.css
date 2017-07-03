@@ -18,6 +18,7 @@ img{
 #header{
 	height: 85px;
 	width:1349px;
+	margin:0 auto;
 	background: #ffffff;/*#74adaa*/
 }
 #header .wrapper{
@@ -39,6 +40,7 @@ img{
 /****************<!--简介信息-->*******************/
 #info{
 	width:1349px;
+	margin:0 auto;
 }
 /****************<!--简介信息-->*******************/
 
@@ -46,6 +48,7 @@ img{
 #banner{
 	height: 453px;
 	width:1349px;
+	margin:0 auto;
 	background: url(../img/banner01.jpg) no-repeat center;
 }
 /****************banner结束*******************/
@@ -54,6 +57,7 @@ img{
 
 #photo{
 	width:1349px;
+	margin:0 auto;
 }
 
 div.img {
